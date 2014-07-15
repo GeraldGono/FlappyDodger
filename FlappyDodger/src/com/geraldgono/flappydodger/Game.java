@@ -233,27 +233,27 @@ public class Game extends Activity {
 				if (b1speed == 20) {
 					b1speed = sx;
 					health -= 25;
-					canvas.drawBitmap(note1, 0, 0, null);
+					canvas.drawBitmap(note1, 1, 1, null);
 				}
 
 				if (b2speed == 15) {
 					b2speed = sx;
 					health -= 25;
-					canvas.drawBitmap(note1, 0, 0, null);
+					canvas.drawBitmap(note1, 1, 1, null);
 				}
 
 				// power take
 				if (powerrun == 30) {
 					powerrun = sx;
 					health += 25;
-					canvas.drawBitmap(note2, 0, 0, null);
+					canvas.drawBitmap(note2, 1, 1, null);
 
 				}
 
 				if (powerrun == 30 && health == 100) {
 					powerrun = sx;
 					health += 0;
-					canvas.drawBitmap(note2, 0, 0, null);
+					canvas.drawBitmap(note2, 1, 1, null);
 
 				}
 
@@ -261,7 +261,7 @@ public class Game extends Activity {
 				if (cspeed == 12) {
 					cspeed = sx;
 					score += 10;
-					canvas.drawBitmap(note2, 0, 0, null);
+					canvas.drawBitmap(note2, 1, 1, null);
 				}
 			}
 			// power
